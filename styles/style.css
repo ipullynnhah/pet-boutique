@@ -113,3 +113,14 @@ span {
 .no-margin {
   margin: 0;
 }
+
+.brands {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.brands img {
+  width: 148px;
+  height: 148px;
+  margin: 0 15px;
+}
