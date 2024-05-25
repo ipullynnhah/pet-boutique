@@ -1,7 +1,8 @@
 body {
   font-family: sans-serif;
-  color: #3c184e;
+  font-size: 20px;
   text-align: center;
+  color: #3c184e;
 }
 
 .section {
@@ -77,7 +78,6 @@ li {
   text-align: left;
   list-style: square;
 
-  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -123,4 +123,8 @@ span {
   width: 148px;
   height: 148px;
   margin: 0 15px;
+}
+
+.section__location p {
+  margin-bottom: 45px;
 }
