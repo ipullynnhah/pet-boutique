@@ -57,7 +57,7 @@ h1 {
   background-color: #3c184e;
 }
 
-.social-medias__icon {
+.social-medias__icon--small {
   width: 20px;
 }
 
@@ -67,7 +67,8 @@ h3 {
   font-weight: 700;
 }
 
-ul {
+ul,
+.section__social-medias p {
   max-width: 800px;
   margin: 0 auto 50px;
 }
@@ -80,7 +81,7 @@ li {
   margin-bottom: 20px;
 }
 
-li span {
+span {
   font-weight: 700;
   font-style: italic;
 }
@@ -93,4 +94,22 @@ li span {
 .services img {
   border-radius: 5px;
   box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+.section__social-medias {
+  color: #fff;
+  background-color: #3c184e;
+}
+
+.section__social-medias p {
+  font-size: 40px;
+}
+
+.social-medias__icon {
+  width: 50px;
+  margin: 0 20px;
+}
+
+.no-margin {
+  margin: 0;
 }
